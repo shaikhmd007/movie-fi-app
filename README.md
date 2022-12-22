@@ -1,26 +1,6 @@
 # Getting Started with Create React App
-// import { Route, Routes } from "react-router-dom";
-// import Home from "./Home";
-import Button from "@mui/material/Button";
-import { useNavigate } from "react-router-dom";
-import { Typography } from "@mui/material";
-import Footer from "../components/Footer";
-const About = () => {
-  const navigate = useNavigate();
-  const handleClick = () => {
-    // 👇️ replace set to true
-    navigate("/", { replace: true });
-  };
 
-  const DetailsBacground = {
-    backgroundImage: `url("https://images.pexels.com/photos/14267038/pexels-photo-14267038.jpeg?auto=compress&cs=tinysrgb&w=600") `,
-    backgroundSize: "cover",
-    color: "white",
-    backgroundPosition: "center",
-    backgroundAttachment: "fixed",
-    // flexWrap: "wrap",
-    padding: "2rem",
-  };
+  
   return (
     <>
       <Button
