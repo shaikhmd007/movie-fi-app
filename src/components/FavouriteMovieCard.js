@@ -20,7 +20,7 @@ const FavouriteMovieCard = ({ id }) => {
     [id]
   );
 
-  // func - if Card Clicked it will Nav to Detail pg 
+  // function if Card Clicked it will Nav to Detail pg 
   const clicked = (_) => {
     navigate(`/detail/${id}`);
   };
